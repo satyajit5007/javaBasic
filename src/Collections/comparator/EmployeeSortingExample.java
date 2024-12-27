@@ -2,6 +2,7 @@ package Collections.comparator;
 
 import java.sql.SQLOutput;
 import java.util.*;
+import java.util.stream.Stream;
 
 public class EmployeeSortingExample {
     public static void main(String[] args) {
@@ -70,19 +71,39 @@ public class EmployeeSortingExample {
 //        ------------------------------------------------------------------------------------------------------
 
         //3. Using Comparator.comparing:
-        System.out.println("comprartor comparaing method on the Name ");
-        employeeList.sort(Comparator.comparing(Employee::getName).reversed());
-        printList(employeeList);
+//        System.out.println("comprartor comparaing method on the Name ");
+//        employeeList.sort(Comparator.comparing(Employee::getName).reversed());
+//        printList(employeeList);
+//        System.out.println();
+//
+//        System.out.println("comprartor comparaing method on the Id ");
+//        employeeList.sort(Comparator.comparing(Employee::getId));
+//        printList(employeeList);
+//        System.out.println();
+//
+//        System.out.println("comprartor comparaing method on the Salarry ");
+//        employeeList.sort(Comparator.comparing(Employee::getSalarry));
+//        printList(employeeList);
+
+//        -----------------------------------------------------------------------------------------------------
+
+        //4. Using Stream API for Sorted Output (Not Modifying Original List):
+        System.out.println("stream by the name");
+        List<Employee> sortedName = employeeList.stream().sorted(Comparator.comparing(Employee::getId)).toList();
+        printList(sortedName);
         System.out.println();
 
-        System.out.println("comprartor comparaing method on the Id ");
-        employeeList.sort(Comparator.comparing(Employee::getId));
-        printList(employeeList);
+
+        System.out.println("Stream by the id");
+        List<Employee> sortedId = employeeList.stream().sorted(Comparator.comparing(Employee::getId).reversed()).toList();
+        printList(sortedId);
         System.out.println();
 
-        System.out.println("comprartor comparaing method on the Salarry ");
-        employeeList.sort(Comparator.comparing(Employee::getSalarry));
-        printList(employeeList);
+        System.out.println("Stream by the Salarry");
+        List<Employee> sortedSalarry = employeeList.stream().sorted(Comparator.comparing(Employee::getSalarry)).toList();
+        printList(sortedSalarry);
+        System.out.println();
+
 
 
 
