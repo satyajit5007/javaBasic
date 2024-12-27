@@ -123,7 +123,43 @@ public class EmployeeSortingExample {
 //        printList(employeeList);
 //        System.out.println();
 //        -------------------------------------------------------------------------------------------------
+//      SORTIING OF THE TWO OBJECTS FROM FOLLOWING METHODS
 
+//
+//        Sorting the list by using Anonymous in the two objects
+//        Collections.sort(employeeList, new Comparator<Employee>() {
+//            @Override
+//            public int compare(Employee o1, Employee o2) {
+//                int idcomparae = o1.getId()- o2.getId();
+//                if (idcomparae == 0){
+//                    return o1.getName().compareTo(o2.getName());
+//                }else {
+//                    return idcomparae;
+//                }
+//            }
+//        });
+//        printList(employeeList);
+
+//        //2. Using a Lambda Expression:
+//        employeeList.sort((e1 , e2 ) -> {
+//            int idCompare = Integer.compare(e1.getId(), e2.getId());
+//            if (idCompare == 0) {
+//                return Double.compare(e1.getSalarry(), e2.getSalarry());
+//            }
+//            return idCompare;
+//        });
+//        printList(employeeList);
+
+        //3Using Comparator.comparing:  that is thea t the 5 point about the comprianes
+
+
+        //simple for loop for comparing in the list
+        System.out.println("Employees with salary > 50k:");
+        for (Employee emp : employeeList){
+            if (emp.getSalarry() > 50000){
+                System.out.println(emp);
+            }
+        }
 
 
 
