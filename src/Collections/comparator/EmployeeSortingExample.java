@@ -67,6 +67,24 @@ public class EmployeeSortingExample {
 //        printList(employeeList);
 //        System.out.println();
 
+//        ------------------------------------------------------------------------------------------------------
+
+        //3. Using Comparator.comparing:
+        System.out.println("comprartor comparaing method on the Name ");
+        employeeList.sort(Comparator.comparing(Employee::getName).reversed());
+        printList(employeeList);
+        System.out.println();
+
+        System.out.println("comprartor comparaing method on the Id ");
+        employeeList.sort(Comparator.comparing(Employee::getId));
+        printList(employeeList);
+        System.out.println();
+
+        System.out.println("comprartor comparaing method on the Salarry ");
+        employeeList.sort(Comparator.comparing(Employee::getSalarry));
+        printList(employeeList);
+
+
 
 
     }
