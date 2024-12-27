@@ -1,4 +1,4 @@
-package Collections;
+package Collections.camparable;
 
 public class employeetest implements Comparable<employeetest> {
 

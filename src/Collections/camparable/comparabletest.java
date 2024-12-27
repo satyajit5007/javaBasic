@@ -1,4 +1,4 @@
-package Collections;
+package Collections.camparable;
 
 
 import java.util.ArrayList;
