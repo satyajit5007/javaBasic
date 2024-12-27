@@ -160,10 +160,6 @@ public class EmployeeSortingExample {
                 System.out.println(emp);
             }
         }
-
-
-
-
     }
 
     public static void printList (List<Employee> employeeList){
