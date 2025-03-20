@@ -15,5 +15,6 @@ public class keywordTHIS {
         Test t1 = new Test();
         t1.setValue(10);
         t1.show();
+        System.out.println("hello");
     }
 }

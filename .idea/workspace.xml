@@ -70,7 +70,7 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Company">
+  <component name="RunManager" selected="Application.keywordTHIS">
     <configuration name="Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="encapsulationtest2.Company" />
       <module name="javaBasicTest" />
@@ -138,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Company" />
         <item itemvalue="Application.keywordTHIS" />
+        <item itemvalue="Application.Company" />
         <item itemvalue="Application.defaultiNTEFACE" />
         <item itemvalue="Application.multiInterface1" />
         <item itemvalue="Application.Main" />
