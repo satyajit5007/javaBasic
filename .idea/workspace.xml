@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="373f57c6-04bc-4ed3-b553-e395177ce875" name="Changes" comment="testing 1">
-      <change beforePath="$PROJECT_DIR$/src/interfacetest2/defaultiNTEFACE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfacetest2/defaultiNTEFACE.java" afterDir="false" />
-    </list>
+    <list default="true" id="373f57c6-04bc-4ed3-b553-e395177ce875" name="Changes" comment="interface" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,11 +169,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742457118522</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="interface">
+      <option name="closed" value="true" />
+      <created>1742460925305</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742460925305</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="testing 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing 1" />
+    <MESSAGE value="interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface" />
   </component>
 </project>
