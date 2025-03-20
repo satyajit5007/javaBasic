@@ -20,6 +20,6 @@ public class Company {
         emp.SetEmpId(100);
         emp.GetEmpId();
         System.out.println(emp.GetEmpId());
-
+        System.out.println("test");
     }
 }
