@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="373f57c6-04bc-4ed3-b553-e395177ce875" name="Changes" comment="interface" />
+    <list default="true" id="373f57c6-04bc-4ed3-b553-e395177ce875" name="Changes" comment="interface">
+      <change afterPath="$PROJECT_DIR$/src/encapsulationtest2/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/encapsulationtest2/keywordTHIS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,22 +35,22 @@
     &quot;assignee&quot;: &quot;satyajit5007&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/satyajit5007/javaBasic.git",
-    "accountId": "fdea0bab-7ad1-4329-a466-afbe4a8dc0e0"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/satyajit5007/javaBasic.git&quot;,
+    &quot;accountId&quot;: &quot;fdea0bab-7ad1-4329-a466-afbe4a8dc0e0&quot;
   },
-  "recentNewPullRequestHead": {
-    "server": {
-      "useHttp": false,
-      "host": "github.com",
-      "port": null,
-      "suffix": null
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
     },
-    "owner": "satyajit5007",
-    "repository": "javaBasic"
+    &quot;owner&quot;: &quot;satyajit5007&quot;,
+    &quot;repository&quot;: &quot;javaBasic&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -57,18 +61,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Company.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.defaultiNTEFACE.executor": "Run",
+    "Application.keywordTHIS.executor": "Run",
     "Application.main.executor": "Run",
     "Application.multiInterface1.executor": "Run",
     "Application.test.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#1 on main",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.defaultiNTEFACE">
+  <component name="RunManager" selected="Application.keywordTHIS">
+    <configuration name="Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="encapsulationtest2.Company" />
+      <module name="javaBasicTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="encapsulationtest2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interfacetest2.Main" />
       <module name="javaBasicTest" />
@@ -95,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfacetest2.main" />
+    <configuration name="keywordTHIS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="encapsulationtest2.keywordTHIS" />
       <module name="javaBasicTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="interfacetest2.*" />
+          <option name="PATTERN" value="encapsulationtest2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,26 +140,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="interfacetest2.test1" />
-      <module name="javaBasicTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="interfacetest2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.keywordTHIS" />
+        <item itemvalue="Application.Company" />
         <item itemvalue="Application.defaultiNTEFACE" />
         <item itemvalue="Application.multiInterface1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742460925305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="interface">
+      <option name="closed" value="true" />
+      <created>1742460975398</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1742460975398</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,7 +199,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
