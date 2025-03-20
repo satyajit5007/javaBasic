@@ -5,7 +5,7 @@ interface A1 {
         System.out.println("default the body implementation in it");
     }
     static void display(){
-        System.out.println("these implementation body for the static method");
+        System.out.println("these implementation body for the static method ");
     }
 
 }
