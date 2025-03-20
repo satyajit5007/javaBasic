@@ -2,7 +2,7 @@ package interfacetest2;
 
 interface A1 {
     default void show(){
-        System.out.println("us the body implementation in it");
+        System.out.println("default the body implementation in it");
     }
     static void display(){
         System.out.println("these implementation body for the static method");
